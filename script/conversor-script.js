@@ -47,3 +47,6 @@ function ConverterDolar(){
     }
     valorInput.value = "";
 }
+
+
+// https://uesleiamaral.github.io/Imersao_dev_Alura/

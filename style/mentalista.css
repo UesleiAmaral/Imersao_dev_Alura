@@ -1,0 +1,128 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 600px;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png");
+    background-color: #000000;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    height: 80vh;
+}
+
+.page-title {
+    width: 100%;
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    
+    width: 100%;
+    color: #ffffff;
+    /* margin-top: 16px; */
+}
+#page-subtitle-tentativas {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: rgba(211, 211, 211, 0.658);
+    border: rgba(211, 211, 211, 0.418);
+
+}
+
+button {
+    margin-left: 10px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: rgba(211, 211, 211, 0.418);
+    color: whitesmoke;
+    background: rgba(211, 211, 211, 0.658);
+}
+
+.resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+}
+
+ul{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+li{
+    color: white;
+    font-weight: bold;
+    list-style: none;
+
+}
+
+li:nth-child(2n){
+    margin:20px;
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(1, 123, 160);
+}
+
+h2{
+    width: 100%;
+}
+
+@media (max-height: 500px) {
+    body {
+        min-height: 800px;
+    }
+    }
+    
