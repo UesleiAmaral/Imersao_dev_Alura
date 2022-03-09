@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor De Moeda</title>
+
+    <link rel="stylesheet" href="./style/conversor-style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">
+                Calculadora De Media</a>
+            </li>
+            <li><a href="conversor-moeda.html">
+                Conversor De Moeda</a>
+            </li>
+            <li><a href="conversor-Temperatura.html">
+                Conversor De Temperatura</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+          Descubra os valores Convertidos
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+        <label for="moeda">Insira o valor Em Reais</label><br>
+        <input type="number" id="valor" size="2" required/><br>
+        <label for="moeda">Escolha A Moeda Para Conversão</label><br>
+        <button type="button" onclick="ConverterEuro()" >Euro</button>
+        <button type="button" onclick="ConverterRublo()">Rublo</button>
+        <button type="button" onclick="ConverterDolar()" >Dolar</button><br><br>
+        <h2 id="valorConvertido"></h2>
+        <h2 id="valorConvertidoBitcoin"></h2>
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+        <script type="text/javascript" src="./script/conversor-script.js"></script>
+</body>
+</html>

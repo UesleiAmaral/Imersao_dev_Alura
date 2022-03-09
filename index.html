@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev Alura</title>
+    <!-- <link rel="stylesheet" href="./style/reset.css"> -->
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">
+                Calculadora De Media</a>
+            </li>
+            <li><a href="conversor-moeda.html">
+                Conversor De Moeda</a>
+            </li>
+            <li><a href="conversor-Temperatura.html">
+                Conversor De Temperatura</a>
+            </li>
+        </ul>
+    </header>
+    <div class="container">
+        <h1 class="page-title">
+        Calculadora de média</h1>
+        <p class="page-subtitle">
+        Descubra qual a sua média de nota de todas as provas!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+        <form>
+            <label for="fnota1">Primeira Nota</label>
+            <input type="number" id="fnota1"><br>
+
+            <label for="fnota2">Segunda Nota</label>
+            <input type="number" id="fnota2"><br>
+
+            <label for="fnota3">Terceira Nota</label>
+            <input type="number" id="fnota3"><br>
+
+            <label for="fnota4">Quarta Nota</label>
+            <input type="number" id="fnota4">
+        </form>
+        <button type="submit" onclick="calculoDaMedia()">CALCULAR</button>
+        <h2 id="resultado-media">Resultado</h2>
+    </div>
+      <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+
+      <script type="text/javascript" src="./script/script.js"></script>
+</body>
+</html>
