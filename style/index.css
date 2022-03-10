@@ -69,9 +69,23 @@ li{
   list-style: none;
 
 }
+
+li::before{
+  content: "/";
+}
+
+li::after{
+  content: "/";
+}
+
 li:nth-child(2n){
   margin:20px;
 }
+
+li:nth-last-child(5){
+  color: rgb(1, 123, 160);
+}
+
 li:hover{
   transform: scale(1.1);
 }

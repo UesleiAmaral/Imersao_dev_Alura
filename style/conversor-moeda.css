@@ -74,12 +74,26 @@ li{
   list-style: none;
 
 }
+
+li::before{
+  content: "/";
+}
+
+li::after{
+  content: "/";
+}
+
 li:nth-child(2n){
   margin:20px;
 }
 li:hover{
   transform: scale(1.1);
 }
+
+li:nth-child(2){
+  color: rgb(1, 123, 160);
+}
+
 
 a{
   color: whitesmoke;
