@@ -1,13 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Conversor De Temperatura</title>
+
+    <link rel="stylesheet" href="./style/conversor-temperatura.css">
 </head>
 <body>
-    <h1>ola</h1>
+    <header>
+        <ul>
+            <li><a href="index.html">
+                Calculadora De Media</a>
+            </li>
+            <li><a href="conversor-moeda.html">
+                Conversor De Moeda</a>
+            </li>
+            <li><a href="conversor-Temperatura.html">
+                Conversor De Temperatura</a>
+            </li>
+            <li><a href="mentalista.html">
+                Mentalista</a>
+            </li>
+        </ul>
+    </header>
 
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de Temperatura
+        </h1>
+        <p class="page-subtitle">
+          Descubra os valores Convertidos
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+        <label for="moeda">Insira o valor Em Celcius</label><br>
+        <input type="number" id="valor" size="2" required/><br>
+        <label for="moeda">Escolha A Temperatura Para Conversão</label><br>
+        <button type="button" onclick="ConverterFahrenheit()">Fahrenheit</button>
+        <button type="button" onclick="ConverterKelvin()" >Kelvin </button><br><br>
+        <h2 id="exibirValor"></h2>
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+        <script type="text/javascript" src="./script/conversor-temperatura.js"></script>
 </body>
 </html>
